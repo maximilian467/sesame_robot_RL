@@ -1,0 +1,14 @@
+sesame_robot_RL
+Copyright 2026 maximilian467
+
+This project builds on the following Apache-2.0 licensed work:
+
+- The Sesame Robot Project by Dorian Todd
+  https://github.com/dorianborian/sesame-robot
+  (robot design, firmware, gait keyframes, STL meshes)
+
+- Sesame ML by the Sesame ML contributors
+  https://github.com/lukehollis/sesame-ml
+  (MuJoCo MJCF model and meshes; servo-model and domain-randomization ideas)
+
+Files copied or adapted from these projects are marked as such in their headers.

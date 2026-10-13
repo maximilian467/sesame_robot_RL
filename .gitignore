@@ -1,0 +1,19 @@
+# Read-only clones of upstream projects (see README "Upstream projects")
+external/
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Training outputs (large; results that matter go to ControlBench or media/)
+runs/
+models/
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
