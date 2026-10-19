@@ -33,6 +33,8 @@ Differs from the stock build: servos are driven by a PCA9685 board instead of ES
 | 2S 14500 Li-ion pack, 7.4 V 800 mAh | Main battery |
 | Hobbywing UBEC 5A | Steps the battery down to 5–6 V |
 
+Wiring and the step-by-step hardware test: [`docs/hardware/bringup.md`](docs/hardware/bringup.md).
+
 ## Quickstart
 
 Requires [uv](https://docs.astral.sh/uv/).
