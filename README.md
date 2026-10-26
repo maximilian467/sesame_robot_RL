@@ -21,13 +21,13 @@ It is also a learning project — every major decision is written down with its 
 
 ## Hardware (my build)
 
-Differs from the stock build: servos are driven by a PCA9685 board instead of ESP32 GPIO pins, and a BNO055 IMU is added so the policy can sense tilt.
+Differs from the stock build: servos are driven by a PCA9685 board instead of ESP32 GPIO pins, and an IMU (BNO08x) is added so the policy can sense tilt.
 
 | Part | Notes |
 |---|---|
 | ESP32-S3 SuperMini | Microcontroller |
 | PCA9685 16-channel servo driver | I2C, 0x40 |
-| BNO055 9-axis IMU | I2C, 0x28, on-chip sensor fusion |
+| "GY-BNO055" IMU board, actually a BNO080/BNO085 | I2C, 0x4B, on-chip sensor fusion ([details](docs/hardware/bringup.md#the-imu-gy-bno055-that-is-really-a-bno08x)) |
 | 0.96" SSD1306 OLED | I2C, 0x3C, the face |
 | 8× MG90S servos (180°) | 2 DOF per leg |
 | 2S 14500 Li-ion pack, 7.4 V 800 mAh | Main battery |
